@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Build UI With Layout Editor 2</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="jobtitle">Job title</string>
+    <string name="employee_information_text_here">Employee information text here…</string>
+    <string name="employee_image">Employee image</string>
+    <string name="employee_info_text">%1$s %2$s is .... %3$s</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="basic_text">This is just some basic text!</string>
+</resources>

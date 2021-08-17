@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/cityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/city" />
+
+                <TextView
+                    android:id="@+id/condTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/condition" />
+
+                <TextView
+                    android:id="@+id/tempTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperature" />
+
+                <TextView
+                    android:id="@+id/timeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/time" />
+
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/weather_image"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/refreshImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:src="@drawable/ic_baseline_refresh_24"
+            android:contentDescription="@string/refresh_button" />
+    </LinearLayout>
+
+</LinearLayout>

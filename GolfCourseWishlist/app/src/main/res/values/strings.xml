@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Golf Course Wishlist</string>
+    <string name="image_content_text">image of a golf course</string>
+    <string name="golf_course_name_text">golf course name</string>
+    <string name="menu_column_text">Show as column</string>
+    <string name="menu_grid_text">Show as grid</string>
+</resources>

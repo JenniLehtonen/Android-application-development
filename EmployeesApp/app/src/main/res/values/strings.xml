@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EmployeesApp</string>
+    <string name="employee_description">I am a hard worker and for me it is important to do things well. I have many years work experience in different fields. I would be glad to tell you more! You can call me, send a message or an email.</string>
+    <string name="employee_image">Employee image</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AdsExercise</string>
+    <string name="traveling_world">Traveling World</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="log_in">LOG IN</string>
+    <string name="click">Click the button to watch an ad to earn free airline points!</string>
+    <string name="clickButtoon">CLICK ME</string>
+    <string name="points">Points: </string>
+    <string name="points_amount">0</string>
+</resources>

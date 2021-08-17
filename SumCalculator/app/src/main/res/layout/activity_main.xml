@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="326dp"
+        android:layout_height="223dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049"
+        app:srcCompat="@drawable/calculator" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="409dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.655">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/number7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number7"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number8"
+                android:textColor="#FDFDFD"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number9"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/multiplicationButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#E68A3A"
+                android:onClick="numberInput"
+                android:text="@string/multiplication"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/number4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number4"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number5"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number6"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/minusButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#E68A3A"
+                android:onClick="numberInput"
+                android:text="@string/minus"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/number1"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number1"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number2"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/number3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number3"
+                android:textColor="#FBFBFB"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/plusButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#E68A3A"
+                android:onClick="numberInput"
+                android:text="@string/plus"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/number0"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/number0"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Cbutton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#EDB247"
+                android:onClick="numberInput"
+                android:text="@string/C"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/equalsTo"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#E68A3A"
+                android:onClick="numberInput"
+                android:text="@string/equals_to"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/number0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.688" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

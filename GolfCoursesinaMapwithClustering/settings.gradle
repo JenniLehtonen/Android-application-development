@@ -1,0 +1,2 @@
+rootProject.name = "Golf Courses in a Map with Clustering"
+include ':app'
